@@ -95,12 +95,16 @@ div {
     width: 1232px;
     margin: 0 auto 78px auto;
     padding-top: 116px;
+    
+
 }
 .column.medium {
     width: 300px;
 }
 .column.small {
+    display: block;
     width: 240px;
+
 
 }
 h3 {
@@ -159,16 +163,20 @@ img.cookie {
     height: 240px;
 }
 footer {
-    display: flex;
+
+    display:flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 100%;
+    width: 65%;
     height: 325px;
     background-color: MediumAquamarine;
     margin: auto;
     font-family: Verdana;
     font-size: 12px;
+
+    bottom: 5px;
+
 
 }
 footer .title {
